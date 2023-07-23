@@ -19,7 +19,7 @@ html {
 }
 
 .home {
-  @apply w-fit xl:h-full flex xl:justify-between justify-start m-auto items-start flex-col xl:py-8 xl:px-36  max-xl:gap-7 px-6 py-8 flex-wrap absolute z-10;
+  @apply w-fit xl:h-full flex xl:justify-between justify-start m-auto items-start flex-col xl:py-8 xl:px-36  max-xl:gap-7 p-6 flex-wrap absolute z-10;
 }
 
 .home-content {
