@@ -1,8 +1,6 @@
-import React, { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { useSnapshot } from "valtio";
-
-import config from "../config/config";
 import state from "../store";
 import { download } from "../assets";
 import { downloadCanvasToImage, reader } from "../config/helpers";
@@ -77,7 +75,7 @@ const Customizer = () => {
     try {
       setGeneratingImg(true);
 
-      const response = await fetch("https://threed-shirt-designer-uzc1.onrender.com/api/v1/dalle", {
+      const response = await fetch("http://localhost:8080/api/v1/dalle", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

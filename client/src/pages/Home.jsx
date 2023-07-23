@@ -25,10 +25,10 @@ const Home = () => {
             </a>
           </motion.header>
 
-          <motion.div className="home-content" {...headContainerAnimation}>
+          <motion.div className="home-content sm:" {...headContainerAnimation}>
             <motion.div {...headTextAnimation}>
               <h1 className="head-text">
-                MAKE <br className="xl:block hidden" /> IT HAPPEN.
+                MAKE IT HAPPEN!
               </h1>
             </motion.div>
 
@@ -36,11 +36,11 @@ const Home = () => {
               {...headContentAnimation}
               className="flex flex-col gap-5"
             >
-              <p className="max-w-md text-[#333333] font-normal  text-base">
+              <p className="max-w-md text-[#333333] font-normal ">
                 <em>
-                  Create your unique and exclusive shirt with our innovative 3D
-                  design tool. <strong>Unleash your creativity</strong> and{" "}
-                  <br /> bring your unique vision to life
+                  Create your unique and exclusive shirt with our 3D design
+                  tool. <strong>Unleash your creativity</strong> and bring your
+                  unique vision to life.
                 </em>
               </p>
 
